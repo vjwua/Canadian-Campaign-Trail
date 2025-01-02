@@ -257,14 +257,14 @@ quotes = [
     "“Henceforth we shall rank among the Nations.” - George-Étienne Cartier",
     "“Oh for a Canadian nationality which would ameliorate the unmitigated selfishness which pervades the land!” - George Brown",
     "“The people require to exercise all the watchfulness they can bring to bear on the machinery.” - George Brown",
-    //"“The greatest danger... is that the peoples of the democracies themselves may not understand their own institutions” - George W. Brown",
     "“I would take every son I have and die on the frontier before I would submit to this outrage.” - Joseph Howe",
-    "“Canada, like many a child, was conceived under the influence of alcohol.” - Will Ferguson"
+    "“Canada, like many a child, was conceived under the influence of alcohol.” - Will Ferguson",
+    "“On patronage, English and French Canadians spoke different dialects but the same language.” - Gordon Stewart"
 ]
 
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
 
-corrr = `\n<h2>CANADIAN CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>` + customquote + `</em></font>`
+corrr = `\n<h2>THE CANADIAN CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>` + customquote + `</em></font>`
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#a80000";
 
