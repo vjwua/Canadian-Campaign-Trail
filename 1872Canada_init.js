@@ -264,7 +264,7 @@ quotes = [
 
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
 
-corrr = `\n<h2>CANADIAN CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>` + customquote + `</em></font>`
+corrr = `\n<h2>THE CANADIAN CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>` + customquote + `</em></font>`
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#a80000";
 
